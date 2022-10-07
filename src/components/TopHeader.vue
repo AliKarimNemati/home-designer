@@ -13,19 +13,19 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" dir="rtl" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto ms-1 mb-2 mb-lg-0">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto me-1 mb-2 mb-lg-0">
           <li class="nav-item">
-            <a href="#" class="nav-link link-light ms-2">ارتباط با ما</a>
+            <a href="#" class="nav-link link-light ms-2">CONTACT</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link link-light ms-2">درباره ما</a>
+            <a href="#" class="nav-link link-light ms-2">ABOUT US</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link link-light ms-2">وسایل </a>
+            <a href="#" class="nav-link link-light ms-2">MATERIALS</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link link-light ms-2">فروشگاه </a>
+            <a href="#" class="nav-link link-light ms-2">STORE</a>
           </li>
         </ul>
       </div>
@@ -33,5 +33,9 @@
   </nav>
 </template>
 
-<style>
+<style lang="scss" scoped>
+a{
+  font-size: .9rem !important;
+  letter-spacing: 1px;
+}
 </style>
