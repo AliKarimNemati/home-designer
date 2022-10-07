@@ -23,8 +23,12 @@ body {
   margin: 0;
   font-size: 16px;
   font-family: main-font;
+  background: #f4f2e8;
 }
 .english-text{
   font-family: montserrat;
+}
+.des{
+  color: #929191;
 }
 </style>
