@@ -1,12 +1,15 @@
 <template>
   <TopHeader class="fixed-top"/>
   <router-view/>
+  <MainFooter />
 </template>
 
 <script>
 import TopHeader from '@/components/TopHeader.vue'
+import MainFooter from './components/MainFooter.vue'
+
 export default {
-  components: { TopHeader }
+  components: { TopHeader, MainFooter }
 }
 </script>
 

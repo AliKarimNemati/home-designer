@@ -45,7 +45,6 @@
   <AboutUs />
   <NewMaterials />
   <CantactUs />
-  <MainFooter />
 </template>
 
 <script>
@@ -53,10 +52,9 @@ import OurProducts from '../components/OurProdocts.vue'
 import AboutUs from '../components/AboutUs.vue'
 import NewMaterials from '../components/NewMaterials.vue'
 import CantactUs from '../components/CantactUs.vue'
-import MainFooter from '../components/MainFooter.vue'
 export default {
   name: 'HomeView',
-  components: { OurProducts, AboutUs, NewMaterials, CantactUs, MainFooter }
+  components: { OurProducts, AboutUs, NewMaterials, CantactUs }
 }
 </script>
 

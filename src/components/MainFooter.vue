@@ -1,6 +1,6 @@
 <template>
   <footer class="bg-dark p-5">
-    <a class="navbar-brand text-uppercase text-white fs-4" href="#">naturehomedec</a>
+    <router-link class="navbar-brand text-uppercase text-white fs-4" :to="{ name: 'home' }">naturehomedec</router-link>
     <div class="d-flex flex-wrap justify-content-around border-bottom pb-5">
       <div class="col-md-4 col-12 mt-5">
         <h3 class="text-uppercase text-light">CONTACT</h3>
@@ -37,16 +37,16 @@
       <div class="col-md-4 col-12 mt-5">
         <ul class="navbar-nav ms-auto me-1 mb-2 mb-lg-0">
           <li class="nav-item">
-            <a href="#" class="nav-link link-light ms-2">CONTACT</a>
+            <a href="/#contact" class="nav-link link-light ms-2">CONTACT</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link link-light ms-2">ABOUT US</a>
+            <a href="/#aboutUs" class="nav-link link-light ms-2">ABOUT US</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link link-light ms-2">MATERIALS</a>
+            <a href="/#materials" class="nav-link link-light ms-2">MATERIALS</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link link-light ms-2">STORE</a>
+            <router-link :to="{name: 'store'}" class="nav-link link-light ms-2">STORE</router-link>
           </li>
         </ul>
       </div>

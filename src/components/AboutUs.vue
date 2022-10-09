@@ -1,5 +1,5 @@
 <template>
-  <section class="d-flex flex-wrap justify-content-center p-5">
+  <section class="d-flex flex-wrap justify-content-center p-5" id="aboutUs">
     <div class="col-md-6 col-12 text-center">
       <img src="../assets/img/about-us-img.jpg" class="about-us-img w-75" />
     </div>

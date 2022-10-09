@@ -1,5 +1,5 @@
 <template>
-  <section class="d-flex flex-wrap p-5 justify-content-md-between justify-content-center">
+  <section class="d-flex flex-wrap p-5 justify-content-md-between justify-content-center" id="materials">
     <div class="col-md-5 col-12">
       <h1 class="text-uppercase text-center text-md-start">New recyclable materials</h1>
       <p class="w-75 text-center text-md-start me-auto ms-auto m-md-0">

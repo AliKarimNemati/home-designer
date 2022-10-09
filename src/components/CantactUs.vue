@@ -1,5 +1,5 @@
 <template>
-  <section class="p-5">
+  <section class="p-5" id="contact">
     <h1 class="text-uppercase text-center">CONTACT</h1>
     <p class="text-center col-md-6 col-12 me-auto ms-auto">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
