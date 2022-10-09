@@ -41,12 +41,14 @@
       <img src="../assets/img/catalog.jpg" class="w-100 rounded">
     </div>
   </section>
+  <OurProducts />
 </template>
 
 <script>
+import OurProducts from '../components/OurProdocts.vue'
 export default {
   name: 'HomeView',
-  components: {}
+  components: { OurProducts }
 }
 </script>
 
