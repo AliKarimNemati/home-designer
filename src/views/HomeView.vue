@@ -1,5 +1,5 @@
 <template>
-  <section class="d-flex flex-wrap p-5 ps-md-0">
+  <section class="d-flex flex-wrap p-5 mt-5 ps-md-0">
     <div class="col-md-6 col-12 text-center">
       <img src="../assets/img/main-img.jpg" class="main-img w-75" />
     </div>
@@ -45,6 +45,7 @@
   <AboutUs />
   <NewMaterials />
   <CantactUs />
+  <MainFooter />
 </template>
 
 <script>
@@ -52,14 +53,15 @@ import OurProducts from '../components/OurProdocts.vue'
 import AboutUs from '../components/AboutUs.vue'
 import NewMaterials from '../components/NewMaterials.vue'
 import CantactUs from '../components/CantactUs.vue'
+import MainFooter from '../components/MainFooter.vue'
 export default {
   name: 'HomeView',
-  components: { OurProducts, AboutUs, NewMaterials, CantactUs }
+  components: { OurProducts, AboutUs, NewMaterials, CantactUs, MainFooter }
 }
 </script>
 
 <style lang="scss">
 .main-img {
-  border-radius: 40% 40% 0 0;
+  border-radius: 45% 45% 0 0;
 }
 </style>

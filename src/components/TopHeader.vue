@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand text-uppercase text-white" href="#">naturehomedec</a>
+      <a class="navbar-brand text-uppercase text-white fs-4" href="#">naturehomedec</a>
       <button
         class="navbar-toggler bg-light"
         type="button"
@@ -34,7 +34,7 @@
 </template>
 
 <style lang="scss" scoped>
-a{
+a.nav-link{
   font-size: .9rem !important;
   letter-spacing: 1px;
 }

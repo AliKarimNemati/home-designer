@@ -1,5 +1,5 @@
 <template>
-  <TopHeader />
+  <TopHeader class="fixed-top"/>
   <router-view/>
 </template>
 
