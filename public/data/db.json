@@ -1,0 +1,34 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "rope pot",
+            "price": "20$",
+            "imgSrc": "/img/planet.jpg"
+        },
+        {
+            "id": 2,
+            "name": "gray sofa",
+            "price": "300$",
+            "imgSrc": "/img/sofa.jpg"
+        },
+        {
+            "id": 3,
+            "name": "blue arm chair",
+            "price": "100$",
+            "imgSrc": "/img/calm-chair.jpg"
+        },
+        {
+            "id": 4,
+            "name": "table",
+            "price": "150$",
+            "imgSrc": "/img/catalog.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Chair",
+            "price": "250$",
+            "imgSrc": "/img/main-img.jpg"
+        }
+    ]
+}

@@ -1,7 +1,7 @@
 <template>
   <section class="d-flex flex-wrap justify-content-center p-5" id="aboutUs">
     <div class="col-md-6 col-12 text-center">
-      <img src="../assets/img/about-us-img.jpg" class="about-us-img w-75" />
+      <img src="/img/about-us-img.jpg" class="about-us-img w-75" />
     </div>
     <div class="col-md-6 col-12 align-self-center mt-4 mt-md-0">
       <h1 class="text-uppercase text-center text-md-start">About Us</h1>
@@ -27,7 +27,7 @@
       facilisis.
     </p>
     <div class="col-md-10 col-12 ms-auto me-auto">
-      <img src="../assets/img/our-work-img.jpg" class="w-100" />
+      <img src="/img/our-work-img.jpg" class="w-100" />
     </div>
     <div class="text-center mt-4">
       <button type="button" class="btn btn-secondary ps-4 pe-4 rounded-0">

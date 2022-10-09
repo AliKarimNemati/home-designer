@@ -1,7 +1,7 @@
 <template>
   <section class="d-flex flex-wrap p-5 mt-5 ps-md-0">
     <div class="col-md-6 col-12 text-center">
-      <img src="../assets/img/main-img.jpg" class="main-img w-75" />
+      <img src="/img/main-img.jpg" class="main-img w-75" />
     </div>
     <div class="col-md-6 col-12 mt-md-0 mt-4">
       <p class="des text-uppercase text-center">new catalog</p>
@@ -21,7 +21,7 @@
         </button>
       </div>
       <div class="text-center mt-4">
-        <img src="../assets/img/planet.jpg" class="rounded-circle w-50"/>
+        <img src="/img/planet.jpg" class="rounded-circle w-50"/>
       </div>
     </div>
   </section>
@@ -38,7 +38,7 @@
       </div>
     </div>
     <div class="col-md-6 col-12 mt-5 mt-md-0">
-      <img src="../assets/img/catalog.jpg" class="w-100 rounded">
+      <img src="/img/catalog.jpg" class="w-100 rounded">
     </div>
   </section>
   <OurProducts />

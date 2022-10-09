@@ -7,16 +7,16 @@
         <div class="d-flex flex-wrap justify-content-center">
             <div class="col-md-2 col-10 ms-5 me-5">
                 <div class="position-relative">
-                    <img src="../assets/img/calm-chair.jpg" class="product-img ">
+                    <img src="/img/calm-chair.jpg" class="product-img ">
                 </div>
                 <p class="text-center text-secondary mt-3">BLUE ARMCHAIR</p>
             </div>
             <div class="col-md-2 col-10 ms-5 me-5">
-                <img src="../assets/img/sofa.jpg" class="product-img">
+                <img src="/img/sofa.jpg" class="product-img">
                 <p class="text-center text-secondary mt-3">GRAY SOFA</p>
             </div>
             <div class="col-md-2 col-10 ms-5 me-5">
-                <img src="../assets/img/planet.jpg" class="product-img">
+                <img src="/img/planet.jpg" class="product-img">
                 <p class="text-center text-secondary mt-3">ROPE POT</p>
             </div>
         </div>

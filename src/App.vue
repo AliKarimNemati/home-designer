@@ -28,7 +28,7 @@ body {
   font-family: main-font;
   background: #f4f2e8;
 }
-.english-text{
+.english-number{
   font-family: montserrat;
 }
 .des{

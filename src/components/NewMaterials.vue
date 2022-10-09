@@ -15,10 +15,10 @@
       </div>
     </div>
     <div class="col-md-3 col-12 align-self-end mt-4 mt-md-0">
-      <img src="../assets/img/calm-chair.jpg" class="w-100 rounded-circle" />
+      <img src="/img/calm-chair.jpg" class="w-100 rounded-circle" />
     </div>
     <div class="col-md-3 col-12 mt-4 mt-md-0">
-      <img src="../assets/img/main-img.jpg" class="w-100 main-img"/>
+      <img src="/img/main-img.jpg" class="w-100 main-img"/>
     </div>
   </section>
 </template>
