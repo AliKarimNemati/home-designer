@@ -44,15 +44,17 @@
   <OurProducts />
   <AboutUs />
   <NewMaterials />
+  <CantactUs />
 </template>
 
 <script>
 import OurProducts from '../components/OurProdocts.vue'
 import AboutUs from '../components/AboutUs.vue'
 import NewMaterials from '../components/NewMaterials.vue'
+import CantactUs from '../components/CantactUs.vue'
 export default {
   name: 'HomeView',
-  components: { OurProducts, AboutUs, NewMaterials }
+  components: { OurProducts, AboutUs, NewMaterials, CantactUs }
 }
 </script>
 
