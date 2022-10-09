@@ -42,13 +42,15 @@
     </div>
   </section>
   <OurProducts />
+  <AboutUs />
 </template>
 
 <script>
 import OurProducts from '../components/OurProdocts.vue'
+import AboutUs from '../components/AboutUs.vue'
 export default {
   name: 'HomeView',
-  components: { OurProducts }
+  components: { OurProducts, AboutUs }
 }
 </script>
 
