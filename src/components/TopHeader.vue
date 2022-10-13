@@ -1,7 +1,11 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light bg-dark">
     <div class="container-fluid">
-      <router-link class="navbar-brand text-uppercase text-white fs-4" :to="{name: 'home'}">naturehomedec</router-link>
+      <router-link
+        class="navbar-brand text-uppercase text-white fs-4"
+        :to="{ name: 'home' }"
+        >naturehomedec</router-link
+      >
       <button
         class="navbar-toggler bg-light"
         type="button"
@@ -25,8 +29,20 @@
             <a href="/#materials" class="nav-link link-light ms-2">MATERIALS</a>
           </li>
           <li class="nav-item">
-            <router-link :to="{name: 'store'}" class="nav-link link-light ms-2">STORE</router-link>
+            <router-link
+              :to="{ name: 'store' }"
+              class="nav-link link-light ms-2"
+              >STORE</router-link
+            >
           </li>
+          <button
+            type="button"
+            class="btn btn-secondary ps-4 pe-4 rounded-0"
+            data-bs-toggle="modal"
+            data-bs-target="#shopingitems"
+          >
+            shoping items
+          </button>
         </ul>
       </div>
     </div>
@@ -34,8 +50,8 @@
 </template>
 
 <style lang="scss" scoped>
-a.nav-link{
-  font-size: .9rem !important;
+a.nav-link {
+  font-size: 0.9rem !important;
   letter-spacing: 1px;
 }
 </style>
