@@ -26,9 +26,15 @@
         },
         {
             "id": 5,
-            "name": "Chair",
+            "name": "chair",
             "price": "250$",
             "imgSrc": "/img/main-img.jpg"
+        },
+        {
+            "id": 6,
+            "name": "easy chair",
+            "price": "70$",
+            "imgSrc": "/img/easy-chair-img.jpg"
         }
     ]
 }

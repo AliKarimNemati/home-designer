@@ -45,6 +45,37 @@
   <AboutUs />
   <NewMaterials />
   <CantactUs />
+
+    <!-- Modal -->
+  <div
+    class="modal fade"
+    id="shopingitems"
+    data-bs-backdrop="static"
+    data-bs-keyboard="false"
+    tabindex="-1"
+    aria-labelledby="staticBackdropLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="text-center">
+          <a class="btn btn-secondary ps-4 pe-4 rounded-0 mb-3" href="/store">
+            Buy Now
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>

@@ -152,8 +152,12 @@ export default {
         this.showAlert = false
       }, 5000)
     },
+
     HandleEndShoping () {
       this.showThanks = true
+      this.items = []
+      this.showTotal = false
+      this.showEmpty = true
       setInterval(() => {
         this.showThanks = false
       }, 5000)
