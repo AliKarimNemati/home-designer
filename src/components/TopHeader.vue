@@ -3,8 +3,10 @@
     <div class="container-fluid">
       <router-link
         class="navbar-brand text-uppercase text-white fs-4"
-        :to="{ name: 'home' }"
-        >naturehomedec</router-link
+        :to="{ name: 'home' }">
+        naturehomedec
+        <i class="bi bi-house"></i>
+        </router-link
       >
       <button
         class="navbar-toggler bg-light"
@@ -20,28 +22,28 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto me-1 mb-2 mb-lg-0">
           <li class="nav-item">
-            <a href="/#contact" class="nav-link link-light ms-2">CONTACT</a>
+            <a href="/#contact" class="nav-link text-light ms-2">CONTACT</a>
           </li>
           <li class="nav-item">
-            <a href="/#aboutUs" class="nav-link link-light ms-2">ABOUT US</a>
+            <a href="/#aboutUs" class="nav-link text-light ms-2">ABOUT US</a>
           </li>
           <li class="nav-item">
-            <a href="/#materials" class="nav-link link-light ms-2">MATERIALS</a>
+            <a href="/#materials" class="nav-link text-light ms-2">MATERIALS</a>
           </li>
           <li class="nav-item">
             <router-link
               :to="{ name: 'store' }"
-              class="nav-link link-light ms-2"
+              class="nav-link text-light ms-2"
               >STORE</router-link
             >
           </li>
           <button
             type="button"
-            class="btn btn-secondary ps-4 pe-4 rounded-0"
+            class="btn btn-secondary rounded-0"
             data-bs-toggle="modal"
             data-bs-target="#shopingitems"
           >
-            shoping items
+            <i class="bi bi-basket3"></i>
           </button>
         </ul>
       </div>
