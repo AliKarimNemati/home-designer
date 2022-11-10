@@ -31,11 +31,12 @@
         <div class="position-relative">
           <img :src="product.imgSrc" class="product-img" />
         </div>
-        <p class="text-center text-secondary mt-3 text-uppercase">
+        <p class="text-center text-secondary mb-0 mt-3 text-uppercase">
           {{ product.name }}
         </p>
+        <p class="text-secondary text-center p-2 m-0">{{ product.des }}</p>
         <p class="text-center text-secondary text-uppercase english-number">
-          {{ product.price }}
+          ${{ product.price }}
         </p>
         <div class="text-center">
           <button
@@ -92,11 +93,14 @@
             v-for="item in items"
             :key="item.id"
           >
-            <h5 class="english-number">{{ item.name }}</h5>
+            <div class="d-flex">
+              <button type="button" class="btn-close ps-3" aria-label="Close" @click="deleteItem" :value="item.id"></button>
+              <h5 class="english-number">{{ item.name }}</h5>
+            </div>
             <h5 class="english-number">{{ item.price }}</h5>
           </div>
           <div v-if="showTotal" class="text-center">
-            <h5 class="mt-3 english-number p-3">Total: {{ total }}$</h5>
+            <h5 class="mt-3 english-number p-3">Total: ${{ total }}</h5>
           </div>
           <div class="text-center m-5 p-3" v-if="showEmpty">
             <h5>Empty</h5>
@@ -161,6 +165,15 @@ export default {
       setInterval(() => {
         this.showThanks = false
       }, 5000)
+    },
+
+    deleteItem (e) {
+      const id = parseInt(e.target.value)
+      this.items = this.items.filter((value) => { return value.id !== id })
+      this.total = 0
+      this.items.forEach((item) => {
+        this.total += parseInt(item.price)
+      })
     }
   }
 }

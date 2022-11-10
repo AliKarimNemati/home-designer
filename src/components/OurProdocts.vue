@@ -21,7 +21,7 @@
             </div>
         </div>
         <div class="text-center">
-            <button type="button" class="btn btn-secondary ps-4 pe-4 rounded-0">Shop Now</button>
+            <router-link type="button" class="btn btn-secondary ps-4 pe-4 rounded-0" :to="{name: 'store'}">Shop Now</router-link>
         </div>
     </section>
 </template>
