@@ -91,6 +91,6 @@ export default {
 
 <style lang="scss">
 .main-img {
-  border-radius: 45% 45% 0 0;
+  border-radius: 330px 330px 30px 30px;
 }
 </style>
